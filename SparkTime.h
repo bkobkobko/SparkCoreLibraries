@@ -1,6 +1,8 @@
 #ifndef _SPARKTIME
 #define _SPARKTIME
 
+#include "application.h"
+
 #define SPARKTIMENTPSIZE 48
 #define SPARKTIMEHOSTNAMESIZE 64
 #define SPARKTIMEYEARZERO 1900
