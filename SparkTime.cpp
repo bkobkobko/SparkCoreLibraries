@@ -365,8 +365,8 @@ bool SparkTime::isEuroDST(uint32_t tnow) {
       result = true;
     }      
   } else if (tempMonth == 10) {
-    if (!((dayNum == _usDSTEnd[tempYear-SPARKTIMEBASEYEAR] && tempHour >=1) ||
-	  (dayNum >  _usDSTEnd[tempYear-SPARKTIMEBASEYEAR]))) {
+    if (!((dayNum == _EuDSTEnd[tempYear-SPARKTIMEBASEYEAR] && tempHour >=1) ||
+	  (dayNum >  _EuDSTEnd[tempYear-SPARKTIMEBASEYEAR]))) {
       result = true;
     }      
   }
